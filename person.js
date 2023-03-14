@@ -3,7 +3,7 @@ const person = {
     name:'Pedro Pascal',
     age:'47'
 }
-*/
+
 
 class Person {
     constructor(name, age){
@@ -15,5 +15,6 @@ class Person {
         console.log("My name is "+ this.name +" and I am "+this.age)
     }
 }
+*/
 
 module.exports = Person;
