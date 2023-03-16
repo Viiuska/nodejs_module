@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Node crash course",
   "main": "index.js",
+  "home":"https://Viiuska.github.io/nodejs_module",
   "scripts": {
     "start": "node index",
-    "dev":"nodemon index"
+    "dev": "nodemon index",
+    "deploy": "gh-pages -d public"
   },
   "author": "Viia Mäntymäki",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
